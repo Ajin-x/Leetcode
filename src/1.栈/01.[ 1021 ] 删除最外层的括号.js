@@ -5,7 +5,7 @@
 
 // * 思路：从头到尾寻找有效括号组合，push 到结果集中
 /**
- * @param {string} S
+ * @param {string}
  * @return {string}
  */ 
 var removeOuterParentheses = function (S) {
