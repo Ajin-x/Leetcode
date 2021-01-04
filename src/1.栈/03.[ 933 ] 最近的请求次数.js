@@ -52,8 +52,7 @@ RecentCounter.prototype.ping = function (t) {
 };
 
 // 测试用例
-let test = ''
-
+recentCounter = new RecentCounter();
 console.time('执行用时');
-console.log(xxx(test));
+console.log(recentCounter.ping(4001));
 console.timeEnd('执行用时');
